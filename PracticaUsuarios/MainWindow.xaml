@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PracticaUsuarios"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="300">
+        Title="MainWindow" Height="450" Width="350">
     <StackPanel>
-        <TextBlock Margin="10,0" FontFamily="Arial">Nuevo Usuario</TextBlock>
-        <ComboBox Name="cbUsuario" Margin="10,0" SelectionChanged="cbUsuario_SelectionChanged">
+        <TextBlock Margin="10,10,10,0" FontSize="18" FontFamily="Arial" Height="20" FontWeight="Bold">Nuevo Usuario</TextBlock>
+        <ComboBox Margin="10,10,10,0" x:Name="cbUsuario" SelectionChanged="cbUsuario_SelectionChanged">
             <ComboBoxItem>Alumno</ComboBoxItem>
             <ComboBoxItem>Maestro</ComboBoxItem>
         </ComboBox>
         <StackPanel Name="spPanelConfiguracion">
-            
+
         </StackPanel>
-        <Button Margin="225,10,10,0" Content="Guardar"/>
+        <Button Margin="255,16,10,0" x:Name="btnGuardarUsuario" Click="btnGuardarUsuario_Click" Content="Guardar"/>
     </StackPanel>
 </Window>

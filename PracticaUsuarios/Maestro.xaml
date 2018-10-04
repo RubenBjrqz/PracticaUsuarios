@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="PracticaUsuarios.Maestro"
+﻿<UserControl x:Class="PracticaUsuarios.Alumno"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -7,15 +7,13 @@
              mc:Ignorable="d" 
              d:DesignHeight="500" d:DesignWidth="300">
     <StackPanel Background="White">
-        <TextBlock FontFamily="Arial" Margin="10,0">Nombre</TextBlock>
-        <TextBox Margin="10,0"></TextBox>
-        <TextBlock FontFamily="Arial" Margin="10,0">Dirección</TextBlock>
-        <TextBox Margin="10,0"></TextBox>
-        <TextBlock Margin="10,0" FontFamily="Arial">Carrera</TextBlock>
-        <ComboBox Margin="10,0">
-            <ComboBoxItem>Ing. Producción Multimedia</ComboBoxItem>
-        </ComboBox>
-        <TextBlock FontFamily="Arial" Margin="10,0">Preparatoria de procedencia</TextBlock>
-        <TextBox Margin="10,0"></TextBox>
+        <TextBlock FontFamily="Arial" Margin="10,0" Name="lblNombreMaestro">Nombre</TextBlock>
+        <TextBox Margin="10,0" Name="txtNombreMaestro"></TextBox>
+        <TextBlock FontFamily="Arial" Margin="10,0" Name="lblTelefonoMaestro">Telefono</TextBlock>
+        <TextBox Margin="10,0" Name="txtTelefonoMaestro"></TextBox>
+        <TextBlock Margin="10,0" FontFamily="Arial" Name="lblCedulaMaestro">Cédula profesional</TextBlock>
+        <TextBox Margin="10,0" Name="txtCedulaMaestro"></TextBox>
+        <TextBlock FontFamily="Arial" Margin="10,0" Name="lblCarreraMaestro">Carrera estudiada</TextBlock>
+        <TextBox Margin="10,0" Name="txtCarreraMaestro"></TextBox>
     </StackPanel>
 </UserControl>

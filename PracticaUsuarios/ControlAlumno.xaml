@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="PracticaUsuarios.ControlAlumno"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PracticaUsuarios"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="350">
+    <StackPanel Background="White">
+        <TextBlock Margin="10,10,10,0" Name="lblNombreA" FontFamily="Arial" FontWeight="Bold">Nombre</TextBlock>
+        <TextBox Margin="10,0,10,0" x:Name="txtNombreA"/>
+        <TextBlock Margin="10,10,10,0" Name="lblDireccionA" FontWeight="Bold" FontFamily="Arial">Dirección</TextBlock>
+        <TextBox Margin="10,0,10,0" Name="txtDireccionA"></TextBox>
+        <TextBlock Margin="10,10,10,0" Name="lblCarrera" FontFamily="Arial" FontWeight="Bold">Carrera</TextBlock>
+        <ComboBox Margin="10,0,10,0" Name="cbCarrera">
+            <ComboBoxItem>IPM</ComboBoxItem>
+            <ComboBoxItem>IBM</ComboBoxItem>
+            <ComboBoxItem>IMT</ComboBoxItem>
+            <ComboBoxItem>IIC</ComboBoxItem>
+            <ComboBoxItem>IER</ComboBoxItem>
+        </ComboBox>
+        <TextBlock Margin="10,10,10,0" Name="lblPreparatoriaA" FontFamily="Arial" FontWeight="Bold">Preparatoria de Procedencia</TextBlock>
+        <TextBox Margin="10,0,10,0" Name="txtPreparatoriaA"></TextBox>
+    </StackPanel>
+</UserControl>

@@ -54,7 +54,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Alumno.xaml">
+    <Page Include="ControlAlumno.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ControlMaestro.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -62,19 +66,29 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Alumno.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="Alumno.xaml.cs">
-      <DependentUpon>Alumno.xaml</DependentUpon>
+    <Compile Include="ControlAlumno.xaml.cs">
+      <DependentUpon>ControlAlumno.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlMaestro.xaml.cs">
+      <DependentUpon>ControlMaestro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Maestro.xaml.cs">
+      <DependentUpon>Maestro.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Maestro.xaml.cs">
-      <DependentUpon>Maestro.xaml</DependentUpon>
+    <Compile Include="Alumno.xaml.cs">
+      <DependentUpon>Alumno.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

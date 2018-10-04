@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace PracticaUsuarios
 {
     /// <summary>
-    /// Lógica de interacción para Maestro.xaml
+    /// Lógica de interacción para ControlAlumno.xaml
     /// </summary>
-    public partial class Maestro : UserControl
+    public partial class ControlAlumno : UserControl
     {
-        public Maestro()
+        public ControlAlumno()
         {
             InitializeComponent();
         }
